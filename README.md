@@ -13,7 +13,7 @@ The course concerns the fundamental concepts of React: designing class component
 1. Install [Node 18](https://nodejs.org) (I recommend using nvm - node version manager - to switch between versions of node)
 2. Clone this repository
 ```
-git clone _____
+git remote add origin https://github.com/g-esco101/star-match-js.git
 ```
 3. Change to root directory
 ```
@@ -113,13 +113,9 @@ class MyDocument extends Document {
 
 export default MyDocument;
 ```
-You can also add other dependencies like bootstrap and fontawesome here.
+The _document.js file acts like a template for all your React pages, such that what is mentioned in the Head section is pulled into all your site pages. You can add other dependencies like bootstrap, fontawesome icons, fonts from google, and a custom css file here. Be sure to change the name of the css file to match yours.
 
-- In the project root directory (star-match-js), add the public directory from the instructor's public. Webpack will serve your contents from this directory. It is essentially the root of the web project and contains these directories (static assets): css and images.
-
-- Copy the _document.js file from the instructor's pages directory into your pages directory. This file acts like a template for all your React pages, such that what is mentioned in the Head section is pulled into all your site pages, e.g., bootstrap, fontawesome icons, fonts from google, and a custom css file. 
-
-- Copy the instructor's SpeakerData.js file into the root of the project (star-match-js). It contains data that we will display throughout the course. 
+- In the project root directory (star-match-js), add the public directory from the instructor's public or make your own. Webpack will serve your contents from this directory. It is essentially the root of the web project and contains these directories (static assets): css, images, etc.
 
 - Now you can begin coding the app! Run the app:
 ```
