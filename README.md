@@ -13,7 +13,7 @@ The course concerns the fundamental concepts of React: designing class component
 1. Install [Node 18](https://nodejs.org) (I recommend using nvm - node version manager - to switch between versions of node)
 2. Clone this repository
 ```
-git remote add origin https://github.com/g-esco101/star-match-js.git
+git clone https://github.com/g-esco101/star-match-js.git
 ```
 3. Change to root directory
 ```
